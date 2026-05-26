@@ -10,6 +10,11 @@ public class OrderItem
 
     public OrderItem(string code, string description, int quantity, decimal unitCost)
     {
+        if (quantity <= 0)
+            throw new ArgumentException("Quantity must be greater than zero.", nameof(quantity));
+        if (unitCost < 0)
+            throw new ArgumentException("Unit cost cannot be negative.", nameof(unitCost));
+
         Code = code;
         Description = description;
         Quantity = quantity;
