@@ -4,7 +4,7 @@ A simple .NET console application that demonstrates a basic order-management dom
 
 ## Goal
 
-The project showcases how to model a small e-commerce domain in C# by combining:
+The project showcases (demo) how to model a small e-commerce domain in C# by combining:
 
 - **Domain models** – `Customer`, `Order`, `OrderItem`, and the `OrderStatus` enum that together capture the lifecycle of a purchase.
 - **Repository pattern** – the `IOrderRepository` interface and its `InMemoryOrderRepository` implementation provide a clean abstraction over data storage, making it straightforward to swap in a database-backed implementation later.
