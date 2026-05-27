@@ -63,3 +63,5 @@ static void PrintOrder(Order order)
     Console.WriteLine($"  TOTAL: {order.TotalCost:C}");
     Console.WriteLine();
 }
+
+var myVariable = "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";
